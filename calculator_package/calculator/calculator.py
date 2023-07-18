@@ -1,3 +1,7 @@
+#Replace '/path/to/calculator_package' with the actual path to the "calculator_package" directory on your system.
+import sys
+sys.path.append('/path/to/calculator_package')
+
 class Calculator:
     def __init__(self):
         self.memory = 0
